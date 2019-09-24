@@ -39,7 +39,6 @@ body {
   max-width: 800px;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -58,9 +57,17 @@ li{
 
 .navigationlinks {
   display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .maincontent {
   width: 80%;
   text-align: center;
+}
+
+p .container-experience{
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
