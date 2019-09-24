@@ -1,10 +1,17 @@
 h1 {
   color: #33485e;
   font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 h2{
   font-family: 'Ubuntu', sans-serif;
+  background-color: #33485e;
+  color: white;
+  padding: 5px;
 }
 
 h3{
@@ -32,12 +39,28 @@ body {
   max-width: 800px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.titleinfo {
+.center-top-content {
+  margin: auto;
+  border-bottom: 4px dotted #33485e;
   text-align: center;
+  color: grey;
+  font-style: italic;
 }
 
 li{
   list-style-type: none;
+}
+
+.navigationlinks {
+  display: flex;
+}
+
+.maincontent {
+  width: 80%;
+  text-align: center;
 }
