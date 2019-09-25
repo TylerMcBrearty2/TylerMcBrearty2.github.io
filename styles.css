@@ -71,3 +71,22 @@ p .container-experience{
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+mark {
+  color: white;
+  background-color: #33485e;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.intro{
+  float: 33%;
+  line-height: 150%;
+}
+
+.education{
+  font-style: italic;
+}
