@@ -2,7 +2,7 @@ h1 {
   color: #33485e;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
-  padding-bottom: 0px;
+  margin-bottom: 0px;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -44,22 +44,23 @@ body {
   margin-right: auto;
 }
 
-.center-top-content {
-  margin: auto;
-  border-bottom: 4px dotted #33485e;
-  text-align: center;
-  color: grey;
-  font-style: italic;
-}
-
 li{
   list-style-type: none;
 }
 
-.navigationlinks {
-  display: flex;
-  justify-content: center;
+#navigation-links {
   text-align: center;
+  margin: 0px;
+  padding-left: 0;
+}
+
+#navigation-links li {
+  display: inline-block;
+}
+
+#navigation-links li:not(:last-child)::after{
+  content: "|";
+  margin: 0 .25em;
 }
 
 .maincontent {
@@ -88,5 +89,17 @@ mark {
 }
 
 .education li{
+  font-style: italic;
+}
+
+.center-top-content {
+  margin: 0 auto;
+  border-bottom: 4px dotted #33485e;
+  font-weight: bold;
+}
+
+.personal-title {
+  text-align: center;
+  color: grey;
   font-style: italic;
 }
