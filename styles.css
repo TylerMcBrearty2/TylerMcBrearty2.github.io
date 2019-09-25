@@ -19,7 +19,7 @@ h3{
 }
 
 h4 {
-  font-weight: normal
+  font-weight: normal;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -83,7 +83,7 @@ mark {
 }
 
 .intro{
-  float: 33%;
+  float: right;
   line-height: 150%;
 }
 
