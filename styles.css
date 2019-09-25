@@ -29,9 +29,11 @@ h5 {
   font-family: 'Ubuntu', sans-serif;
 }
 
-img {
-  width: 300px;
+.intro img {
+  width: 33%;
   float: right;
+  overflow: auto;
+  margin-left: 20px;
 }
 
 
@@ -65,11 +67,14 @@ li{
 
 .maincontent {
   width: 80%;
-  text-align: center;
+  margin: 0 auto;
 }
 
-p .container-experience{
+.container-experience p{
   font-size: 14px;
+}
+
+.container-experience h2, .container-experience h3, .container-experience h4, .container-experience h5 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
