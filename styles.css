@@ -31,6 +31,7 @@ h5 {
 
 img {
   width: 300px;
+  float: right;
 }
 
 
@@ -83,10 +84,9 @@ mark {
 }
 
 .intro{
-  float: right;
   line-height: 150%;
 }
 
-.education{
+.education li{
   font-style: italic;
 }
