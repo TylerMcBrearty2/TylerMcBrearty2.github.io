@@ -29,11 +29,11 @@ h5 {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.intro img {
-  width: 33%;
-  float: right;
-  overflow: auto;
-  margin-left: 20px;
+img {
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -46,9 +46,6 @@ body {
   margin-right: auto;
 }
 
-li{
-  list-style-type: none;
-}
 
 #navigation-links {
   text-align: center;
@@ -107,4 +104,12 @@ mark {
   text-align: center;
   color: grey;
   font-style: italic;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+.col-sm-8{
+
 }
