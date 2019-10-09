@@ -1,0 +1,33 @@
+.jumbotron {
+    background-color: #243145;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#navbar li {
+    text-align: center;
+    float: left;
+    border-right: 1px solid white;
+}
+
+#navbar li a {
+    display: inline-block;
+    color: white;
+    background-color: #243145;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: #70a7ff;
+}
