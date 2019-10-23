@@ -24,10 +24,42 @@
     display: inline-block;
     color: white;
     background-color: #243145;
-    padding: 10px 35px;
+    padding: 10px 90px;
     text-decoration: none;
 }
 
 #navbar li a:hover {
     color: #70a7ff;
+}
+
+#navbar ul {
+  display: inline-block;
+}
+
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+  font-size: 12px;
 }
